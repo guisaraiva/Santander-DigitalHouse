@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "nome": "Rio de Janeiro",
+        "capital": "RJ"
+    },
+    {
+        "id": 2,
+        "nome": "São Paulo",
+        "capital": "SP"
+    },
+    {
+        "id": 3,
+        "nome": "Florianopolis",
+        "capital": "SC"
+    },
+    {
+        "id": 4,
+        "nome": "Belo Horizonte",
+        "capital": "MG"
+    }
+]
