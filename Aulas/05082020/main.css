@@ -1,0 +1,29 @@
+.animacao{
+    height: 200px; /*altura*/
+    width: 200px; /*largura*/
+    background-color: brown;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  0%   {margin-left: 0px;}
+  25%  {margin-left: 200px;}
+  75%  {margin-left: 50px}
+  100% {margin-left: 100px;}
+}
+
+.animacao2{
+    height: 200px; /*altura*/
+    width: 200px; /*largura*/
+    background-color: darkblue;
+    position: relative;
+    animation: mymove2 5s infinite;
+}
+
+@keyframes mymove2 {
+  0%   {margin-left: 0px;}
+  25%  {margin-left: 200px;}
+  75%  {margin-left: 50px; border-radius: 50%;}
+  100% {margin-left: 100px; border-radius: 50%;}
+}
