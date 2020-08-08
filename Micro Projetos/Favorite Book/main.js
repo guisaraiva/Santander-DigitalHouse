@@ -108,11 +108,12 @@ function showSlides() {
     setTimeout(showSlides, 3000);
 }
 
-/* function acao(){
-    var submenu = document.getElementById('submenu');
+function exibeMenu(){
+    var submenu = document.getElementById('dh_nav');
     if(submenu.style.display == 'block'){
       submenu.style.display = 'none';
     }else{
       submenu.style.display = 'block';
     }
-} */
+}
+
