@@ -17,7 +17,7 @@ books = [
     },
     {
         "id": 3,
-        "titulo": "Relíquias",
+        "titulo": "Reliquias",
         "sinopse":"A descoberta de que uma múmia conhecida como Madame X esconde na verdade o corpo de uma mulher assassinada há pouco tempo choca a comunidade arqueológica. A detetive Jane Rizzoli e a patologista Maura Isle se unem novamente para resolver o mistério.",
         "autor": "Tess Gerritsen",
         "ano_publicacao": 2008,
@@ -26,7 +26,7 @@ books = [
     {
         "id": 4,
         "titulo": "Nosferatu",
-        "sinopse":"Victoria McQueen tem um misterioso dom: por meio de uma ponte no bosque perto de sua casa, ela consegue chegar de bicicleta a qualquer lugar no mundo e encontrar coisas perdidas. Vic mantém segredo sobre essa sua estranha capacidade, pois sabe que ninguém acreditaria",
+        "sinopse":"Victoria McQueen tem um misterioso dom: por meio de uma ponte no bosque perto de sua casa, ela consegue chegar de bicicleta a qualquer lugar no mundo e encontrar coisas perdidas. Vic mantém segredo sobre essa sua estranha capacidade, pois sabe que ninguém acreditaria.",
         "autor": "Joe Hill",
         "ano_publicacao": 2019,
         "genero": "Romance, Terror, Suspense, Fantasia sombria, Romance psicológico, Ficção supernatural"
@@ -34,7 +34,7 @@ books = [
     {
         "id": 5,
         "titulo": "A Estrada da Noite",
-        "sinopse": "O astro do rock Judas Coyne passa sua aposentadoria colecionando recordações mórbidas como a confissão de uma bruxa, um filme de verdade e, depois de receber um e-mail diretamente sobre o item online, um terno de um homem morto. Ele é dito pela filha que o espírito do velho está ligado a este terno fúnebre. O fantasma irá aonde quer que o faça e assim comprar este terno seria comprar um poltergeist; Judas não pode deixar passar esta oportunidade.",
+        "sinopse": "O astro do rock Judas Coyne passa sua aposentadoria colecionando recordações mórbidas como a confissão de uma bruxa, um filme de verdade e, depois de receber um e-mail diretamente sobre o item online, um terno de um homem morto.",
         "autor": "Joe Hill",
         "ano_publicacao": 2007,
         "genero": "Romance, Terror, Suspense, História de fantasma"
