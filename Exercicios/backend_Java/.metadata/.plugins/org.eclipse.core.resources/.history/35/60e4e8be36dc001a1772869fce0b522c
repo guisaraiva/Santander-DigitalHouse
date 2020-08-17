@@ -1,0 +1,20 @@
+package array_primos;
+
+class Programa {
+
+	public static void main(String[] args) {
+				
+		int[] numbers = {3,25,35,22,12,35,5,85,11};
+			
+		int cont;
+		
+		for (cont = 0; cont < numbers.length; cont ++ ) {
+			if (numbers[cont] % 2 == 0) {
+				System.out.println("O numero primo é: " + numbers[cont]);
+			}
+			
+		}
+		
+	}
+
+}

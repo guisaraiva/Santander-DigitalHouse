@@ -1,0 +1,9 @@
+package heranca_encaps_abstracao;
+
+public class Telefonista extends Funcionario{
+	
+	private int estacaoDeTrabalho;
+	
+	
+
+}

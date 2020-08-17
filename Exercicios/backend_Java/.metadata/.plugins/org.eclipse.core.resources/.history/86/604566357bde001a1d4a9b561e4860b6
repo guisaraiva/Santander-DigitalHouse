@@ -1,0 +1,14 @@
+package classes_e_objetos;
+
+public class Funcionarios {
+
+	String nomeCompleto;
+	String endereco;
+	String dataAdmissao;
+	String dataDemissao;
+	String email;
+	int cpf;
+	String setor;
+	
+
+}

@@ -1,0 +1,15 @@
+package heranca_encaps_abstracao;
+
+public class TestaFuncionario {
+	public static void main (String[] args) {
+		
+		Funcionario funcionario = new Funcionario();
+		funcionario.setNome("Guilherme Silva Saraiva");
+		funcionario.setSalario(2500);
+		
+		System.out.println(funcionario.getNome());
+		System.out.println(funcionario.getSalario());
+		
+		
+	}
+}

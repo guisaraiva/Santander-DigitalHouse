@@ -1,0 +1,29 @@
+package array_primos;
+
+class Programa {
+
+	public static void main(String[] args) {
+				
+		int[] numbers = {3,25,35,22,12,35,5,85,5};
+		
+		int countDividers = 0;
+		
+		for(int length = 0; length < numbers.length; length++) {
+		
+			for (int counter = 1; counter <= numbers[counter-1]; counter++) {
+				if (numbers[counter-1] % counter == 0) {
+					countDividers++;
+					}
+			}
+			
+			if(countDividers == 2) {
+				System.out.println("Indice: " + (length-1) + " Número: " + numbers[length-1]);
+			}else {
+				System.out.println("O numero não é primo.");
+			}
+		}
+	}
+		
+}
+
+

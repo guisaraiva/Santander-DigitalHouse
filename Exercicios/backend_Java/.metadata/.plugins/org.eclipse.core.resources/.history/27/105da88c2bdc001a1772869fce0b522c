@@ -1,0 +1,34 @@
+package aula_java;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int idade = 20;
+		String country = "Brasil";
+		
+		if( idade < 18) {
+			System.out.println("Usuário não pode beber !");
+		}else if (idade < 21 && country == "EUA") {
+			System.out.println("Usuário não pode beber !");
+			
+		}else {
+			System.out.println("Usuário pode beber !");
+		}
+		
+		switch (country) {
+		case "Brasil":
+			System.out.println("Usuário é Brasileiro !");
+			break;
+			
+		case "EUA":
+			System.out.println("Usuário é Norte Americano !");
+			break;
+		default:
+			System.out.println("Usuário com nacionalidade não identificada.");
+		}
+
+	}
+
+}

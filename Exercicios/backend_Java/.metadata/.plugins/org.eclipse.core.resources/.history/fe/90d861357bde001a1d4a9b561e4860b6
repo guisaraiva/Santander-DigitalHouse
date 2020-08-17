@@ -1,0 +1,11 @@
+package classes_e_objetos;
+
+public class Pessoa {
+
+	String nomeCompleto;
+	String endereco;
+	String dataNascimento;
+	String telefone;
+	int cpf;
+
+}

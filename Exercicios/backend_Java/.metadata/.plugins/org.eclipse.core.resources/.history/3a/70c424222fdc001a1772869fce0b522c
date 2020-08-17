@@ -1,0 +1,19 @@
+package pode_dirigir;
+
+class Programa {
+
+	public static void main(String[] args) {
+		int idade = 20;
+		boolean cnh = true;
+		
+		if(idade >= 18 && cnh == true) {
+			System.out.println("Pode dirigir!!");
+		}else if (idade >= 18 && cnh ==false) {
+			System.out.println("Não pode dirigir!!");
+		}
+		else {
+			System.out.println("Não pode dirigir!!");
+		}
+	}
+
+}

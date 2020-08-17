@@ -1,0 +1,24 @@
+package temperatura_media;
+import java.util.Scanner;
+
+class Programa {
+
+	public static void main(String[] args) {
+		/* 
+		 * Faça um programa que receba a temperatura média de cada mês do ano e
+		armazene-as em um array. Mostre a maior e a menor temperatura do ano e em que mês
+		elas ocorreram (mostrar o mês por extenso: 1 – janeiro, 2 – fevereiro, ...).
+		Obs: Desconsiderar empates.
+		*/
+		Scanner temperature = new Scanner(System.in);
+		
+		int number;
+		
+		System.out.println("Informe um número médio de Temperatura:");
+		number = temperature.nextInt();
+		
+		System.out.println("O número é: " +number);
+		
+	}
+
+}

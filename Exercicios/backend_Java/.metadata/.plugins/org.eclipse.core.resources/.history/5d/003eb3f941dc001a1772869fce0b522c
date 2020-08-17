@@ -1,0 +1,10 @@
+package arrays_positivos_negativos;
+
+class Programa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

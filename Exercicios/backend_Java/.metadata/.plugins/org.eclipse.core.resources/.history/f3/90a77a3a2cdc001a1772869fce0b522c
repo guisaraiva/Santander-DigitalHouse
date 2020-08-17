@@ -1,0 +1,32 @@
+package maior_de_idade;
+import java.util.Scanner;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		
+		Scanner idade = new Scanner(System.in);
+		
+		int contador, numberInput;
+		
+		System.out.printf("Informe a sua idade: \n");
+		numberInput = idade.nextInt();
+		
+		if (numberInput < 15 ) {
+			System.out.println("Usuário é criança. Tem "+ numberInput +" anos de idade.");
+			
+		}
+		else if( numberInput < 18 && numberInput >= 15) {
+			System.out.println("Usuário é adolescente. Tem " + numberInput + "anos de idade.");
+		}
+		else if (numberInput >= 18 && numberInput <= 65) {
+			System.out.println("Usuário é adulto. Tem " + numberInput + " anos de idade.");
+		}
+		else if(numberInput > 65) {
+			System.out.println("Usuário é idoso. Tem "+ numberInput + " anos de idade.");
+		}
+		else {
+			System.out.println("Informação inválida!");
+		}
+	}
+}

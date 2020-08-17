@@ -1,0 +1,11 @@
+package classes_e_objetos;
+
+public class PessoaJuridica extends Funcionarios{
+
+	public static void main(String[] args) {
+		String cnpj;
+
+
+	}
+
+}

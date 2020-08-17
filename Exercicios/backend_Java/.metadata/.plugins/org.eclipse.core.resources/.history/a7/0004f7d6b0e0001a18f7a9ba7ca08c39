@@ -1,0 +1,19 @@
+package heranca_encaps_abstracao;
+
+public class TestaFuncionario extends Funcionario {
+	public static void main (String[] args) {
+		
+		//Instanciando um objeto do tipo Funcionario.
+		Funcionario funcionario = new Funcionario();
+		
+		//Usando os métodos públilcos da classe Funcionário
+		funcionario.setNome("Guilherme Silva Saraiva");
+		funcionario.setSalario(2500);
+		
+		//Exibindo o resultado dos métodos públicos da Classe Funcionário
+		System.out.println(funcionario.getNome());
+		System.out.println(funcionario.getSalario());
+		
+		
+	}
+}

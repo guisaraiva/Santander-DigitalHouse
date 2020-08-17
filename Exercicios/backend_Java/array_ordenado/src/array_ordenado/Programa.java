@@ -7,10 +7,10 @@ class Programa {
 		int[] numbers = { 3, 15, 35, 11, 12, 35, 7, 85 };
 		
 		Arrays.sort(numbers);
-		printNumbers(numbers);
+		printNumbersAsc(numbers);
 	}
 
-	public static void printNumbers(int[] numbers) {
+	public static void printNumbersAsc(int[] numbers) {
 		for (int number: numbers) {
 			System.out.println(number);
 		}

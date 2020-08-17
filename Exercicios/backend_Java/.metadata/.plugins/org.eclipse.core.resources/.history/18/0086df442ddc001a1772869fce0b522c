@@ -1,0 +1,21 @@
+package final_de_semana;
+
+class Programa {
+
+	public static void main(String[] args) {
+		
+		String diaDaSemana = "Terça-Feira";
+		
+		switch (diaDaSemana) {
+		case "Sabádo":
+			System.out.println("Hoje é " + diaDaSemana + ". Vamos curtir !! Final de Semana !!");
+		break;
+		case "Domingo":
+			System.out.println("Hoje é " + diaDaSemana + ". Vamos curtir !! Final de Semana !!");
+		break;
+		default:
+			System.out.println("Hoje é " + diaDaSemana + ". Vamos trabalhar !!");
+		}
+	}
+
+}

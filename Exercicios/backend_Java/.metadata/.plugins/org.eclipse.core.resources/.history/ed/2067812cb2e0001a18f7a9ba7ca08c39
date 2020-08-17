@@ -1,0 +1,21 @@
+package heranca_encaps_abstracao;
+
+public class Telefonista extends Funcionario{
+	
+	private int estacaoDeTrabalho;
+
+	public int getEstacaoDeTrabalho() {
+		return estacaoDeTrabalho;
+	}
+
+	public void setEstacaoDeTrabalho(int estacaoDeTrabalho) {
+		this.estacaoDeTrabalho = estacaoDeTrabalho;
+	}
+	
+	
+	@Override //Sobrescrita do método principal da classe Funcionários
+	public double calculaBonificacao() {
+		return this.getSalario() * 0.9 + 200;
+	}
+
+}
